@@ -1,6 +1,6 @@
-# Task 1 Total count of instances and Total count of instances with excluding the physical cells
+# Total count of instances and Total count of instances with excluding the physical cells
 puts "                                           "
-puts "Task 1 Total count of instances and Total count of instances with excluding the physical cells"
+puts "Total count of instances and Total count of instances with excluding the physical cells"
 set insts [get_db insts]
 set logic_insts [get_db insts -if { !.is_physical }]
 
